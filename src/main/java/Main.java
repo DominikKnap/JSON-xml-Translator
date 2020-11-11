@@ -14,7 +14,6 @@ public class Main {
 
         System.out.print("Please, type text file name: ");
         String txtName = scanner.nextLine();
-//        String fileName = "/Users/mb/Desktop/Java_projects/JSON-xml-Translator/input/" + txtName;
         String fileName = ".///input/" + txtName;
         Path filePath = Paths.get(fileName);
         String textLine = null;
